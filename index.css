@@ -1,0 +1,96 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-right: 2%;
+    color: white;
+    margin-left: 3%;
+}
+
+#H1{
+    background-color: rgb(128, 56, 138);
+    border-radius: 10px;
+    padding: 0.03%;
+}
+
+#addtext{
+    padding-bottom:  5%;
+    padding-top: 1%;
+    padding-left: 1%;
+    margin-top: 3%;
+    border-radius: 10px;
+    border-color: blueviolet;
+    background-color: rgb(222, 200, 236);
+    width: 18%;
+    margin-left: 2%;
+}
+
+#addtext:hover{
+}
+
+#Publicar{
+    padding: 1%;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    border-color: rgb(76, 0, 110);
+    background-color: rgb(76, 0, 110);
+    margin-top: 2%;
+    color: white;
+    margin-left: 14%;
+}
+#Publicar:hover{
+    background-color: rgba(75, 0, 110, 0.418);
+    color: rgb(76, 0, 110); 
+    border: 3px;
+}
+
+#tareas{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+}
+
+#todo{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#doing{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#done{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.task{background-color: rgb(216, 175, 255);
+padding: 10%;
+padding-top: 3%;
+padding-bottom: 3%;
+border-radius: 10px;
+margin-top: 6%;
+}
+
+#azul{
+    background-color: rgb(28, 92, 228);
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+
+#rojo{
+    background-color: rgb(228, 28, 28);
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+
+#borrar{color: rgb(122, 22, 216);}
