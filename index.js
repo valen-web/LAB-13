@@ -71,10 +71,10 @@ function deleteTask(index) {
     let list = localStorage.getItem("list");
     if (list !== null) {
         let listJson = JSON.parse(list);
-        listJson.splice(index, 1); // Elimina la tarea del arreglo
+        listJson.splice(index, 1); 
         const listStr = JSON.stringify(listJson);
         localStorage.setItem("list", listStr);
-        renderAll(); // Vuelve a renderizar la lista actualizada
+        renderAll(); 
     }
 }
 
